@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /creatorhub/
+
+Sitemap: https://weeknow-id.github.io/creatorhub/sitemap.xml

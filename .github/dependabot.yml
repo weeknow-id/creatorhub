@@ -1,0 +1,14 @@
+# Update keamanan mingguan otomatis untuk dependency npm (gratis).
+# PR Dependabot muncul tiap Senin — merge hanya kalau `npm run build` lolos.
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      time: "03:00"
+      timezone: Asia/Jakarta
+    open-pull-requests-limit: 5
+    labels:
+      - dependencies
